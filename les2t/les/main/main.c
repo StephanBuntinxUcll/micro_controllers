@@ -12,8 +12,19 @@ void app_main(void)
 
     setup_led(LED_PIN);
 
+
     while (1) {
-        test_button(BUTTON_PIN);
+  
+        static int flank_result = 0;
+        flank_result += flank(BUTTON_PIN);
+        if (flank_result == 5) {
+          toggle(LED_PIN);
+          flank_result = 0;
+        }
+
+        
+        
+        
 
     
     }
