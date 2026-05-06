@@ -1,0 +1,11 @@
+dependencies:
+
+  myGPIO:
+    path: components/myGPIO
+    git: https://github.com/KNaelaerts/ESP32_Periferie.git
+
+  component_adc:
+    path: les3_ADC/components/component_adc
+    git: https://github.com/StephanBuntinxUcll/micro_controllers.git
+
+  

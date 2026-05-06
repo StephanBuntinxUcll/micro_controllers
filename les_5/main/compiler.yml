@@ -1,0 +1,4 @@
+dependencies:
+myGPIO:
+  path: les2t/les/components/component1
+  git: https://github.com/StephanBuntinxUcll/micro_controllers.git

@@ -1,7 +1,5 @@
 
-void setup_adc(int kanaal);
 
-int read_adc(int kanaal);
 
 void myDAC_Setup(int dac_pin);
 

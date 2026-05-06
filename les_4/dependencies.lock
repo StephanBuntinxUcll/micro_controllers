@@ -1,0 +1,27 @@
+dependencies:
+  component_adc:
+    component_hash: a433f95c6f07a6b36d30a30517660d2a9b3bfedef45d0a2f5b6fef821ff4b55c
+    dependencies: []
+    source:
+      git: https://github.com/StephanBuntinxUcll/micro_controllers.git
+      path: les3_ADC/components/component_adc
+      type: git
+    version: d3dc9613175ef95f7081268aa5e2e4099fa60bfc
+  idf:
+    source:
+      type: idf
+    version: 5.5.2
+  myGPIO:
+    component_hash: 6e9caf0ea609a17e939511db326c103bd5febeaca93f33458b9d9cced5b11d4b
+    dependencies: []
+    source:
+      git: https://github.com/KNaelaerts/ESP32_Periferie.git
+      path: components/myGPIO
+      type: git
+    version: a1623523337cabfc1783a4fe8213e07b7b3ea8f5
+direct_dependencies:
+- component_adc
+- myGPIO
+manifest_hash: b6af34247ffce89d259aa0c59e543118bb17bb34e23f135fd79d7e826e4b71da
+target: esp32
+version: 2.0.0
